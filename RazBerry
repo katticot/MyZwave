@@ -11,3 +11,5 @@ Zway
 Request example
 
 http://192.168.1.90:8083/ZWaveAPI/Run/devices[2].instances[0].commandClasses[0x20].Set(0)
+
+http://raspberrypi:8083/ZWaveAPI/Run/devices[5].commandClasses[0x27].Set(1)
