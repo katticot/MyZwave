@@ -4,3 +4,10 @@ wget -q -O - razberry.z-wave.me/install | sudo bash
 or
 
 http://razberry.z-wave.me/index.php?id=24
+
+
+Zway
+
+Request example
+
+http://192.168.1.90:8083/ZWaveAPI/Run/devices[2].instances[0].commandClasses[0x20].Set(0)
