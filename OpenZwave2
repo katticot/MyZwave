@@ -1,0 +1,8 @@
+Install 
+
+prérequis
+libudev0
+make
+libudev-dev
+
+sudo apt-get install libudev-dev libudev0 make
