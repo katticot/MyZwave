@@ -1,0 +1,2 @@
+sudo service domoticz.sh status
+sudo service domoticz.sh stop
