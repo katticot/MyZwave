@@ -41,7 +41,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
    # libxml2-dev \
    # libxslt-dev \
    # libyaml-dev \
-   # make \
+    make \
    # patch \
    # xz-utils \
    # zlib1g-dev \
