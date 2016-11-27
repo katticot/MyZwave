@@ -1,0 +1,6 @@
+Install 
+wget -q -O - razberry.z-wave.me/install | sudo bash 
+
+or
+
+http://razberry.z-wave.me/index.php?id=24
