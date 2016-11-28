@@ -13,3 +13,4 @@ wget https://github.com/OpenZWave/open-zwave/archive/master.zip (plus rapide)
 unzip 
 
 make -j 3
+sudo make install
