@@ -1,8 +1,15 @@
 Install 
 
 prérequis
-libudev0
-make
-libudev-dev
+
 
 sudo apt-get install libudev-dev libudev0 make
+sudo apt-get install libudev-dev git
+git clone https://github.com/OpenZWave/open-zwave open-zwave-read-only
+cd open-zwave-read-only
+git pull
+
+wget https://github.com/OpenZWave/open-zwave/archive/master.zip (plus rapide)
+unzip 
+
+make -j 3
