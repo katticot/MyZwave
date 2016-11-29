@@ -1,6 +1,6 @@
 get nano
 
-xport TERM=xterm
+export TERM=xterm
 
 Zway:
 var zway = require('node-zway');
