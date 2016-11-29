@@ -1,3 +1,17 @@
 get nano
 
 xport TERM=xterm
+
+Zway:
+var zway = require('node-zway');
+ 
+// without password 
+var deviceApi = new zway.DeviceApi('192.168.0.123');
+ 
+// with password 
+var deviceApi = new zway.DeviceApi({ host: '192.168.0.123', user: 'admin', password: 'mypass' });
+Manually Refreshing
+deviceApi.refresh()
+.then(() => {
+    console.log('Done!');
+});
